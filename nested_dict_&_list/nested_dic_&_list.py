@@ -62,9 +62,11 @@ print("\n")
 
 def printInfo(some_dict):
     for key, val in some_dict.items():
+        print("+++++++++++++++")        # added after solution watched
         print(len(val), key.upper())
         for i in range(0, len(val)):
-            print(some_dict[key][i])
+            print(val[i])               # added after solution watched          
+            # print(some_dict[key][i])
 
 dojo = {
    'locations': ['San Jose', 'Seattle', 'Dallas', 'Chicago', 'Tulsa', 'DC', 'Burbank'],
